@@ -3,7 +3,24 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 768px) {
+  .first-page img {
+    display: none;
+  }
 
+  .container h2.mb-3,
+  .container .mt-5,
+  .container p {
+    text-align: center;
+  }
+  .about-container img {
+    margin-bottom: 60px;
+  }
+  .email-link {
+    font-size: 18px !important;
+    margin-left: 65px;
+  }
+}
 body {
   margin-top: 100px;
 }
